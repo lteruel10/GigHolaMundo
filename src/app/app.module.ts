@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {HeaderComponent} from './components/header/header.components'
+import {BodyComponent} from './components/body/body.component'
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
-  ],
+    HeaderComponent, BodyComponent ],
   imports: [
     BrowserModule
   ],
